@@ -19,7 +19,7 @@ Growth Hackers에서 기존에 진행해온 유관 프로젝트 및 주로 다�
 
 1. 관련 프로젝트
 
-**[TODO: (11)]**
+{selected_relative_project}
 
 
 
