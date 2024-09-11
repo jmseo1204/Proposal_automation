@@ -1,8 +1,8 @@
 from openai import OpenAI
 
 
-def run_chat_completion(api_key: str, prompt: list, history=[], model="gpt-4o"):
-    client = OpenAI(api_key=api_key)
+def run_chat_completion(api_key: str, prompt: list, base_url="", history=[], model="llama-3.1-sonar-small-128k-online"):
+    client = OpenAI(api_key=api_key, base_url="https://api.perplexity.ai")
     # history += prompt
     respond = client.chat.completions.create(
         messages=prompt,
